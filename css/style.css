@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  outline: none;
+  border: none;
+}
+
+.container00 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadoraContent {
+  width: 400px;
+  height: auto;
+  padding: 16px;
+  background-color: #49833A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculadoraContent .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 26px;
+}
+.calculadoraContent .inputsContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.calculadoraContent .inputsContent label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.calculadoraContent .inputsContent .input {
+  margin-bottom: 34px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.calculadoraContent .btnContent {
+  width: 100%;
+}
+.calculadoraContent .btnContent .btn00 {
+  width: 100%;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #172813;
+  color: #fff;
+  transition: 0.3s;
+}
+.calculadoraContent .btnContent .btn00:hover {
+  background-color: #2a4a23;
+}
+
+.nome,
+.salarioAtual,
+.aumento,
+.novoSalario {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
